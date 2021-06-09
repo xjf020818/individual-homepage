@@ -1,0 +1,36 @@
+/*重置样式*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+head title{
+    display: none;
+}
+/*超链接去下划线*/
+a {
+    text-decoration: none;
+}
+/*列表去点*/
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*图片去边框*/
+img {
+    border: 0;
+}
+
+/*清除浮动*/
+.clearfix:after{
+    content: "";
+    height: 0;
+    overflow: hidden;
+    display: block;
+    clear: both;
+}

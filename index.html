@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>徐锦凡的个人主页</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/bbs.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link href="font/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/ss-menu.css">
+    <link rel="stylesheet" href="docs/demo.css" >
+    <script src="js/jquery-1.12.4.js"></script>
+</head>
+<body>
+<div class="container" style="position: relative">
+    <!--   -->
+    <div class="row clearfix">
+        <div class="col-md-3 column">
+            <!--左侧边栏-->
+            <nav class="ss-menu ">
+                <ul>
+                    <li class="left-header">
+                        <a class="picture">
+                            <img src="images/picture.jpeg" alt=""/>
+                        </a>
+                        <a class="name1" style="font-size: 20px;font-family: 'Arial', '微软雅黑', serif;margin-bottom: 30px">徐锦凡</a>
+                    </li>
+                    <li><a href="#index"><img class="left-icon" src="images/小图标/home.png">   首页</a></li>
+                    <li><a href="#about"><img class="left-icon" src="images/小图标/about.png"> 个人介绍 </a></li>
+                    <li><a href="#outside"><img class="left-icon" src="images/小图标/basketball.png">  课余生活</a></li>
+                    <li><a href="photoWall.html"><img class="left-icon" src="images/小图标/photo.png"> 照片墙</a></li>
+                    <li><a href="#goal"><img class="left-icon" src="images/小图标/goal.png">  目标</a></li>
+                    <li><a href="#contact"><img class="left-icon" src="images/小图标/contact.png"> 留言板</a></li>
+                    <li><a href="#setting"><img class="left-icon" src="images/小图标/setting.png"> 设置 </a></li>
+                </ul>
+            </nav>
+<!--            <div class="left">-->
+<!--                <nav class="ss-menu">-->
+<!--                    <header>-->
+<!--                        <div class="picture"><img src="images/picture.jpeg" alt=""/></div>-->
+<!--                        <div class="name1">徐锦凡</div>-->
+<!--                        <div class="name2">XuJinfan</div>-->
+<!--                    </header>-->
+<!--                    <ul class="navlist">-->
+<!--                        <li>-->
+<!--                            <h2 class="clearfix">-->
+<!--                                <span><i class="fa fa-bookmark"></i></span>-->
+<!--                                <a class="title" href="#index" id="leftBtn1">首页 </a>-->
+<!--                                <a href="" class="list"><i class="fa fa-angle-down"></i></a>-->
+<!--                            </h2>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <h2 class="clearfix">-->
+<!--                                <span><i class="fa fa-bookmark"></i></span>-->
+<!--                                <a class="title" href="#about" id="leftBtn2">个人介绍</a>-->
+<!--                                <a href="#about" class="list"><i class="fa fa-angle-down"></i></a>-->
+<!--                            </h2>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <h2 class="clearfix">-->
+<!--                                <span><i class="fa fa-bookmark"></i></span>-->
+<!--                                <a class="title" href="#outside" id="leftBtn3">课余生活</a>-->
+<!--                                <a href="" class="list"><i class="fa fa-angle-down"></i></a>-->
+<!--                            </h2>-->
+<!--                            &lt;!&ndash;            <ul class="sublist">&ndash;&gt;-->
+<!--                            &lt;!&ndash;                <li class=""><a href="list-class.html">图书类别列表</a></li>&ndash;&gt;-->
+<!--                            &lt;!&ndash;                <li class=""><a href="add-class.html">添加图书类别</a></li>&ndash;&gt;-->
+<!--                            &lt;!&ndash;            </ul>&ndash;&gt;-->
+<!--                        </li>-->
+<!--                        &lt;!&ndash;                    <li>&ndash;&gt;-->
+<!--                        &lt;!&ndash;                        <h2 class="clearfix">&ndash;&gt;-->
+<!--                        &lt;!&ndash;                            <span><i class="fa fa-user"></i></span>&ndash;&gt;-->
+<!--                        &lt;!&ndash;                            <a href="" class="title" id="leftBtn4">学习</a>&ndash;&gt;-->
+<!--                        &lt;!&ndash;                            <a href="" class="list"><i class="fa fa-angle-down"></i></a></h2>&ndash;&gt;-->
+<!--                        &lt;!&ndash;                    </li>&ndash;&gt;-->
+<!--                        <li>-->
+<!--                            <h2 class="clearfix">-->
+<!--                                <span><i class="fa fa-user"></i></span>-->
+<!--                                <a href="#goal" class="title" id="leftBtn4">目标</a>-->
+<!--                                <a href="" class="list"><i class="fa fa-angle-down"></i></a></h2>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <h2 class="clearfix">-->
+<!--                                <span><i class="fa fa-list-alt"></i></span>-->
+<!--                                <a href="#contact" class="title" id="leftBtn5">留言板</a>-->
+<!--                                <a href="" class="list"><i class="fa fa-angle-down"></i></a></h2>-->
+<!--                        </li>-->
+<!--                        <li>-->
+<!--                            <h2 class="clearfix">-->
+<!--                                <span><i class="fa fa-bookmark"></i></span>-->
+<!--                                <a class="title" href="#outside" id="leftBtn6">设置</a>-->
+<!--                                <a href="" class="list"><i class="fa fa-angle-down"></i></a>-->
+<!--                            </h2>-->
+<!--                            <ul class="sublist">-->
+<!--                                <li class=""><a href="list-class.html">设置侧边栏样式</a></li>-->
+<!--                                <li class=""><a href="add-class.html">添加图书类别</a></li>-->
+<!--                            </ul>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                    <footer>-->
+<!--                        <ul class="footerlist clearfix">-->
+<!--                            <li><a href="#"><i class="fa fa-cog"></i></a></li>-->
+<!--                            <li><a href="#"><i class="fa fa-arrows-alt"></i></a></li>-->
+<!--                            <li><a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a></li>-->
+<!--                            <li><a href="#"><i class="fa fa-power-off"></i></a></li>-->
+<!--                        </ul>-->
+<!--                    </footer>-->
+<!--                </nav>-->
+
+<!--            </div>-->
+        </div>
+        <div class="col-md-9 column" id="index">
+            <div class="page-header" style="margin-bottom: 30px">
+                <h1 style="font-size: 300%">
+                    我现在所做的一切 <small style="margin-left: 30px">都是为了追求更加完美</small><div id="time" style="margin-top: 20px"></div>
+                </h1>
+            </div>
+            <div class="jumbotron" style="height: 625px;background-image: url('images/1.jpeg');width: 700px;opacity: 80%">
+            </div>
+            <div class="carousel slide" id="carousel-744587">
+                <div class="row clearfix">
+                    <div class="col-md-12 column" id="about">
+                        <div class="page-header" style="margin-bottom: 50px">
+                            <h1>
+                                你好，我是徐锦凡 <small style="margin-left: 30px">一个来自温州的大学生</small>
+                            </h1>
+                            <ul id='timeline'>
+                                <li class='work'>
+                                    <input class='radio' id='work1' name='works' type='radio'>
+                                    <div class="relative">
+                                        <label for='work1'>出生</label>
+                                        <span class='date'>2002年8月18日</span>
+                                        <span class='circle'></span>
+                                    </div>
+                                    <div class='content'>
+                                        <p>
+                                            2002年夏天，我出生在了宁波。
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class='work'>
+                                    <input class='radio' id='work2' name='works' type='radio'>
+                                    <div class="relative">
+                                        <label for='work2'>小学</label>
+                                        <span class='date'>2008年9月</span>
+                                        <span class='circle'></span>
+                                    </div>
+                                    <div class='content'>
+                                        <p>
+                                            2008年夏天，我来到了温州白鹿外国语学校，开启了我的小学生活。
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class='work'>
+                                    <input class='radio' id='work3' name='works' type='radio'>
+                                    <div class="relative">
+                                        <label for='work3'>第一次出国</label>
+                                        <span class='date'>2014年1月</span>
+                                        <span class='circle'></span>
+                                    </div>
+                                    <div class='content'>
+                                        <p>
+                                            2014年夏天，这是我第一次跟随学校的出国游学活动，去到了澳大利亚，看到了悉尼歌剧院，还在布里斯班看到了考拉和黄金海岸。
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class='work'>
+                                    <input class='radio' id='work4' name='works' type='radio'>
+                                    <div class="relative">
+                                        <label for='work4'>初中</label>
+                                        <span class='date'>2014年9月</span>
+                                        <span class='circle'></span>
+                                    </div>
+                                    <div class='content'>
+                                        <p>
+                                            2014年的夏天，我来到了温州市绣山中学。
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class='work'>
+                                    <input class='radio' id='work5' name='works' type='radio'>
+                                    <div class="relative">
+                                        <label for='work5'>高中</label>
+                                        <span class='date'>2017年9月</span>
+                                        <span class='circle'></span>
+                                    </div>
+                                    <div class='content'>
+                                        <p>
+                                            2017年的夏天，我来到了温州市第五十一中学。
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class='work'>
+                                    <input class='radio' id='work6' name='works' type='radio' checked>
+                                    <div class="relative">
+                                        <label for='work6'>美国之行</label>
+                                        <span class='date'>2018年7月</span>
+                                        <span class='circle'></span>
+                                    </div>
+                                    <div class='content'>
+                                        <p>
+                                            2018年的夏天，这是我第二次跟随学校的出国游学活动，参观了美国的各大名校——哈佛、麻省理工、哥伦比亚、普林斯顿···
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class='work'>
+                                    <input class='radio' id='work7' name='works' type='radio'>
+                                    <div class="relative">
+                                        <label for='work7'>大学</label>
+                                        <span class='date'>2020年10月</span>
+                                        <span class='circle'></span>
+                                    </div>
+                                    <div class='content'>
+                                        <p>
+                                            2020年的夏天，我来到了杭州职业技术学院。
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <!--                图片轮播-->
+                <div class="row clearfix" style="height: auto" id="outside">
+                    <div class="col-md-12 column">
+                        <div class="page-header" style="margin-bottom: 30px">
+                            <h1>
+                                生命在于运动 <small style="margin-left: 30px"></small>
+                            </h1>
+                        </div>
+                        <div class="carousel slide" id="carousel-936145">
+                            <ol class="carousel-indicators">
+                                <li class="active" data-slide-to="0" data-target="#carousel-936145">
+                                </li>
+                                <li data-slide-to="1" data-target="#carousel-936145">
+                                </li>
+                                <li data-slide-to="2" data-target="#carousel-936145">
+                                </li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img alt="" src="images/2.jpeg" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Lebron James
+                                        </h4>
+                                        <p>
+                                            You'd better concentrate on it, because I'll do my best.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="" src="images/3.jpeg" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Kyrie Irving
+                                        </h4>
+                                        <p>
+                                            we don't need you to be great all the time
+                                            we need you to be great this one time
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img alt="" src="images/4.jpg" />
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Ferrari
+                                        </h4>
+                                        <p>
+                                            If I had to say that when I started,I thought of making more than just one car,I would be lying
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> <a class="left carousel-control" href="#carousel-936145" data-slide="prev" style="height: auto"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-936145" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                        </div>
+                        <h2>
+                            From Kobe
+                        </h2>
+                        <p>
+                            Love me or hate me, it's one or the other. Always has been. Hate my game, my swagger. Hate my fadeaway, my hunger. Hate that I'm a veteran. A champion. Hate that. Hate it with all your heart. And hate that I'm loved, for the exact same reasons.                        </p>
+                    </div>
+                </div>
+                <div class="row clearfix" id="goal" style="margin-top: 100px">
+                    <div class="page-header" style="margin-bottom: 30px">
+                        <h1>
+                            生命不止 <small style="margin-left: 30px">奋斗不息</small>
+                        </h1>
+                    </div>
+                    <div class="col-md-7 column">
+
+                    </div>
+                    <div class="col-md-5 column">
+                        <ul style="line-height: 40px">
+                            <li style="font-size: 17px">
+                                Do one thing at a time, and do well.
+                            </li>
+                            <li style="font-size: 17px">
+                                Keep on going never give up.
+                            </li>
+                            <li style="font-size: 17px">
+                                Whatever is worth doing is worth doing well.
+                            </li>
+                            <li style="font-size: 17px">
+                                Believe in yourself.
+                            </li>
+                            <li style="font-size: 17px">
+                                Never put off what you can do today until tomorrow.
+                            </li>
+                            <li style="font-size: 17px">
+                                You cannot improve your past, but you can improve your future. Once time is wasted, life is wasted.
+                            </li>
+                            <li style="font-size: 17px">
+                                Knowledge can change your fate and English can accomplish your future.
+                            </li>
+                            <li style="font-size: 17px">
+                                Don't aim for success if you want it; just do what you love and believe in, and it will come naturally.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row clearfix" id="contact">
+                    <div class="col-md-12 column" style="height: 1000px;margin-top: 80px">
+                        <div class="bbs">
+                            <header><span>我要发帖</span></header>
+                            <div class="post">
+                                <textarea class="content1" placeholder="请输入内容"></textarea>
+                                <input class="btn" value="发布">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix" id="setting">
+                    <div class="col-md-12 column" style="height: 800px;margin-top: 80px">
+                        <main class="ss-main">
+                            <article>
+                                <section class="theme-picker">
+                                    <h2> 更换侧边栏背景色 </h2>
+                                    <p> 单击选择你想要的侧边栏颜色 </p>
+                                    <button class="set-default"> 重置 </button>
+                                    <span class="red"> </span>
+                                    <span class="yellow"> </span>
+                                    <span class="blue"> </span>
+                                    <span class="green"> </span>
+                                    <span class="orange"> </span>
+                                    <span class="brown"> </span>
+                                    <span class="teal"> </span>
+                                    <span class="purple"> </span>
+                                    <div class="ad-unit">
+                                    </div>
+                                </section>
+                                <div>
+                                    <img src="images/image1-1.jpg" width="710px">
+                                </div>
+                            </article>
+                        </main>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="js/js.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.ss.menu.js"></script>
+<script src="js/ssMenu.js"></script>

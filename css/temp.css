@@ -1,0 +1,328 @@
+body{
+    background-color: #D3D3D3;
+}
+.left {
+    float: left;
+    background-color: black;
+    margin-bottom: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 300px;
+    height: 1000px;
+}
+
+/*.left header*/
+header {
+    width: 220px;
+    padding-top: 40px;
+}
+header .picture {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    float: left;
+}
+header .picture img {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+header .name1, header .name2 {
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    float: left;
+    margin-left: 40px;
+}
+header .name1 {
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 0;
+    color: #c0b3b6;
+}
+header .name2 {
+    margin-top: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    color: #d9e3e5;
+}
+header .role {
+    width: 100%;
+    height: 30px;
+    color: #ffffff;
+    float: left;
+    margin-top: 15px;
+    padding-left: 25px;
+    text-shadow: 1px 1px #666;
+    margin-bottom: 20px;
+}
+/*.left ul*/
+.left ul.navlist>li{
+    width: 100%;
+}
+.left ul.navlist>li>h2>span {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.left ul.navlist>li>h2>a.title{
+    font-size: 15px;
+    color: #ffffff;
+    width: 120px;
+    height: 45px;
+    float: right;
+    padding-left: 10px;
+    font-weight: normal;
+    padding-top: 8px;
+}
+.left ul.navlist>li>h2>a.list{
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+.left ul.navlist>li>h2>a.list i{
+    width: 45px;
+    height: 45px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 0 0 15px;
+}
+.left ul.navlist li h2:hover{
+    width: 220px;
+    border-bottom: 1px solid #213345;
+    border-top: 1px solid #536070;
+}
+
+/*ul.sublist*/
+.left ul.navlist>li>ul.sublist>li{
+    width: 100%;
+    height: 35px;
+    position: relative;
+}
+
+.left ul.navlist li ul.sublist li a{
+    display: inline-block;
+    line-height: 35px;
+    width: 220px;
+    color: #ffffff;
+    padding-left: 45px;
+    font-size: 13px;
+}
+.left ul.navlist li ul.sublist li a:hover{
+    background-color: #374c5f;
+    width: 100%;
+}
+.left ul.navlist li ul.sublist li:active a{
+    background-color: #374c5f;
+    width: 100%;
+}
+
+.left ul.navlist li ul.sublist li:before{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    content: "" ;
+    background-color: #245668;
+    float: left;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.left ul.navlist li ul.sublist li:after{
+    height: 35px;
+    border-right: 1px solid #245668;
+    width: 10px;
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 0;
+}
+
+
+/*二级导航的功能*/
+/*悬浮*/
+/*.left ul.navlist li ul.sublist{*/
+/*    display: none;*/
+/*}*/
+/*.left ul.navlist li:hover ul.sublist{*/
+/*    display: block;*/
+/*}*/
+
+/*active*/
+.left ul.navlist li ul.sublist li.active a{
+    background-color: #374c5f;
+    width: 100%;
+}
+.left ul.navlist li.active{
+    border-bottom: 1px solid #213345;
+    border-top: 1px solid #536070;
+}
+.left ul.navlist li.active ul.sublist{
+    display: block;
+}
+.left ul.navlist>li.active{
+    border-right: 5px solid #29bbb0;
+    width: 220px;
+}
+
+
+
+
+
+
+
+
+/*left footer*/
+.left footer ul.foot{
+    width: 220px;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+footer .footerlist li{
+    width: 25%;
+    height: 40px;
+    float: left;
+}
+footer .footerlist li i{
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #5a738e;
+    padding-top: 10px;
+}
+footer .footerlist li i:hover{
+    background-color: #435567;
+}
+
+/*main*/
+.main {
+    margin-left: 220px;
+}
+.main header{
+    width: 100%;
+    height: 55px;
+    padding-top: 0;
+    padding-left: 5px;
+    background-color: #ededed;
+    border-bottom: 1px solid #dde1e6;
+}
+.main header .list{
+    width: 40px;
+    height: 55px;
+    float: left;
+}
+.main header .list i{
+    line-height: 35px;
+    width: 40px;
+    font-size: 20px;
+    color: #56708b;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.main header .list i:hover{
+    background-color: #999999;
+}
+.main header .mail{
+    width: 35px;
+    height: 55px;
+    float: right;
+    margin-right: 10px;
+}
+
+.main header .mail a{
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    position: relative;
+}
+.main header .mail a i{
+    font-size: 16px;
+    color: #000000;
+    position: absolute;
+    left: 5px;
+}
+.main header .mail a .number{
+    width: 18px;
+    height: 18px;
+    background-color: #29bbb0;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 15px;
+    color: #ffffff;
+}
+.main header .user{
+    width: 150px;
+    height: 55px;
+    float: right;
+}
+.main header .user .icon img{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+.main header .user .icon{
+    width: 30px;
+    height: 55px;
+    float: left;
+}
+.main header .user .name{
+    width: 90px;
+    height: 55px;
+    float: left;
+    color: black;
+    margin-left: 0;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+.main header .user .down{
+    width: 20px;
+    height: 55px;
+    float: right;
+}
+.main header .user .down a i{
+    width: 10px;
+    height: 55px;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+/*main section*/
+.main section.maincontent{
+    width: 100%;
+    height: 900px;
+    background-color: #f7f7f7;
+    padding: 20px 20px 30px 20px;
+}
+
+/*main footer*/
+.main footer{
+    position: relative;
+    height: 45px;
+    background: white;
+    width: 100%;
+}
+.main footer .text{
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-top: 12px;
+    text-align: right;
+    font-size: 12px;
+}
