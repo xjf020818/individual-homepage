@@ -57,10 +57,6 @@
 	color: rgba(255, 255, 255, 0.55);
 }
 
-.ss-menu.default ul li div {
-	color: rgba(255, 255, 255, 0.55);
-}
-
 .ss-menu ul li:hover {
 	background: rgba(0, 0, 0, 0.3);
 }
@@ -76,7 +72,7 @@
 	overflow: hidden;
 }
 
-.ss-menu ul li a {
+.ss-menu ul li a{
 	color: #ffffff;
 	/* For older browsers */
 	color: rgba(255, 255, 255, 0.85);
@@ -118,8 +114,7 @@
 .ss-menu ul li,
 .ss-menu ul li a,
 .ss-menu ul li:hover,
-.ss-menu ul li a:hover,
-.ss-menu ul li div:hover{
+.ss-menu ul li a:hover{
 	transition: .3s all;
 	-webkit-transition: .3s all;
 	-moz-transition: .3s all;
@@ -176,7 +171,6 @@
 }
 
 .left-header {
-	width: 220px;
 	padding-top: 40px;
 }
 li .picture {

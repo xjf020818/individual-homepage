@@ -28,8 +28,7 @@ $(document).ready(function () {
             "></div><h1><ul><span>"+content+"</span></ul> </h1> </li>"+time()+"</ul></section>";
         $(".post").css("display","none");
         $(".bbs").append(msg);
-        $(".title").val("");
-        $(".content").val("");
+        $(".content1").val("");
     });
 
 });
